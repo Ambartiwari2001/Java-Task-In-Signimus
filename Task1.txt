@@ -1,0 +1,45 @@
+
+Task: Create a Java program that calculates the area of a rectangle.
+
+Requirements:
+1. The program should prompt the user to enter the length and width of the rectangle.
+2. It should then calculate the area using the formula: area = length * width.
+3. Finally, it should display the calculated area to the user.
+
+Here's a basic structure for your Java program:
+
+java
+import java.util.Scanner;
+
+public class RectangleAreaCalculator {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input from the user
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter the length of the rectangle
+        System.out.print("Enter the length of the rectangle: ");
+        double length = scanner.nextDouble();
+
+        // Prompt the user to enter the width of the rectangle
+        System.out.print("Enter the width of the rectangle: ");
+        double width = scanner.nextDouble();
+
+        // Calculate the area of the rectangle
+        double area = length * width;
+
+        // Display the calculated area to the user
+        System.out.println("The area of the rectangle is: " + area);
+
+        // Close the Scanner object
+        scanner.close();
+    }
+}
+
+
+To run this program:
+1. Open a text editor and copy the code into a new file.
+2. Save the file with a .java extension (e.g., RectangleAreaCalculator.java).
+3. Open a command prompt or terminal.
+4. Navigate to the directory where you saved the file.
+5. Compile the Java file by running: javac RectangleAreaCalculator.java
+6. Run the compiled program by running: java RectangleAreaCalculator
