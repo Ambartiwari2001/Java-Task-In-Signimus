@@ -1,12 +1,9 @@
 @signimus
 
-Here's a README.md file with instructions on how to run the provided Java project locally:
 
-markdown
-Copy code
-# Library System
+# Calculate Area Of Rectangle
 
-Welcome to the Library System! This simple Java program allows you to manage a library by adding, searching for, removing, and displaying books.
+Welcome to the Calculate Area Of Rectangle program! This Java program calculates the area of a rectangle based on user input for length and width.
 
 ## Prerequisites
 
@@ -14,20 +11,19 @@ Before you begin, ensure you have the following installed:
 - Java Development Kit (JDK)
 
 ## Installation
-Copy code
-cd library-system
-Usage
-To run the Library System, follow these steps:
 
-Compile the Java files:
+To run the Calculate Area Of Rectangle program, follow these steps:
+
+Compile the Java file:
 bash
 Copy code
-javac LibrarySystem.java
+javac CalculateAreaOfRectangle.java
 Run the compiled program:
 bash
 Copy code
-java LibrarySystem
-Follow the on-screen instructions to perform various operations such as adding, searching for, removing, or displaying books in the library.
+java CalculateAreaOfRectangle
+Follow the on-screen instructions to enter the length and width of the rectangle when prompted.
+After entering the values, the program will calculate and display the area of the rectangle.
 Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
 
