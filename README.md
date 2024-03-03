@@ -14,14 +14,6 @@ Before you begin, ensure you have the following installed:
 - Java Development Kit (JDK)
 
 ## Installation
-
-To run the Library System locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/library-system.git
-Navigate to the project directory:
-bash
 Copy code
 cd library-system
 Usage
